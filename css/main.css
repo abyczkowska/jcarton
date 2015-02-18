@@ -382,3 +382,11 @@ td.align-left{
 th.align-center {
   text-align: center;
 }
+
+/* small img */
+.img-small {
+  margin: auto;
+  width: 25%;
+  height: 25%;
+  margin-top: 15px;
+}
