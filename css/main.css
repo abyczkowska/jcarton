@@ -359,3 +359,26 @@ button.submit:hover {
 .links-margin {
   margin-top: 15px;
 }
+th.cell-head {
+  width: 20%;
+  font-family: "Signika", sans-serif;
+  font-weight: 600;
+  font-size: 16px;  
+}
+th.cell-head {
+  width: 20%;
+  font-family: "Signika", sans-serif;
+  font-weight: 600;
+  font-size: 16px;  
+}
+td.cell-style {
+  font-family: "Signika", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+td.align-left{
+  text-align: left;
+}
+th.align-center {
+  text-align: center;
+}
