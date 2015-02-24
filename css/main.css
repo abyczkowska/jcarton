@@ -81,7 +81,6 @@ button.navbar-toggle {
 .container.nav-container {
   width: auto;
   height: 130px;
-  border-bottom: 1px solid #4d4d4f;
 }
 
 @media (max-width: 1025px){
@@ -118,10 +117,17 @@ img.img-home {
   height: auto;
 }
 @media (min-width: 768px){
+  .navbar.navbar-custom {
+    border-bottom: 1px solid #4d4d4f;
+  }
+  .container.nav-container {
+    max-width: 1280px;
+    width: 100%
+  }
   .container.body {
     padding: 0;
-    margin: 0;
     width: 100%;
+    max-width: 1280px;
     margin-top: -1px;
       }
       .container.body .row {
