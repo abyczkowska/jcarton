@@ -218,7 +218,8 @@ footer.footer-color {
 }
 .link-icn {
   width: 110px;
-  height: 9	0px;
+  height: 90px;
+  display: block;
 }
 .blue-caption{
   width: 110px;
