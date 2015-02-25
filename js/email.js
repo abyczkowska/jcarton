@@ -13,7 +13,7 @@ function sendEmail() {
         "from_email": email,
         "to": [
           {
-          "email": "wooshstudios@gmail.com",
+          "email": "jrcarton@gmail.com",
           "name": "Dr James Carton",
           "type": "to"
         }
