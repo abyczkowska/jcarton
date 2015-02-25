@@ -119,6 +119,7 @@ img.img-home {
 @media (min-width: 768px){
   .navbar.navbar-custom {
     border-bottom: 1px solid #4d4d4f;
+    z-index: 100;
   }
   .container.nav-container {
     max-width: 1280px;
