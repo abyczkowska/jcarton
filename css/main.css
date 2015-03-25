@@ -184,7 +184,7 @@ img.img-home {
         -o-background-size: cover;
       }
 }
-button.report-btn{
+.report-btn{
   display: inline-block;
   font-family: "Signika", sans-serif;
   text-transform: uppercase;
@@ -196,14 +196,14 @@ button.report-btn{
   box-shadow: none;
   border:none;
 }
-button.report-btn a{
+a.report-btn {
   color: #fff;
 }
-button.report-btn a:hover{
+a.report-btn:hover{
   color: #fff;
   font-weight: 600;
 }
-button.report-btn:last-child{
+.report-btn:last-child{
   margin-bottom: 20px;
 }
 .container.body {
