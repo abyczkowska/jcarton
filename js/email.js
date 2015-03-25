@@ -23,9 +23,18 @@ function sendEmail() {
         "html": generateEmail(name, email, phone, message)
       }
     }
-  }).done(function(response) {
+  })
+  .done(function(response) {
     $('#send-form').hide();
     $('#success-message').show();
+  })
+  .fail(function(response) {
+    console.log(response)
+    $('#send-form').hide();
+    $('#fail-message').show();
+  })
+  .always(function(response) {
+    $('#send-form').hide();
   });
 }
 
