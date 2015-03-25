@@ -7,6 +7,7 @@ function sendEmail() {
   $.support.cors = true;
   $.ajax({
     crossDomain: true,
+    headers: {'Access-Control-Allow-Origin': '*'},
     type: "POST",
     url: "https://mandrillapp.com/api/1.0/messages/send.json",
     data: {
