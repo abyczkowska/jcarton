@@ -28,8 +28,9 @@ function sendEmail() {
     $('#send-form').hide();
     $('#success-message').show();
   })
-  .fail(function(response) {
-    console.log(response)
+  .fail(function(jqXHR, textStatus, errorThrown) {
+    console.log(textStatus);
+    console.log(errorThrown);
     $('#send-form').hide();
     $('#fail-message').show();
   })
