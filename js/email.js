@@ -4,6 +4,7 @@ function sendEmail() {
   var phone = $('#input_phone').val()
   var message = $('#input_message').val()
 
+  $.support.cors = true;
   $.ajax({
     type: "POST",
     url: "https://mandrillapp.com/api/1.0/messages/send.json",
